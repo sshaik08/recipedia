@@ -19,17 +19,17 @@ p, li {
 
 @font-face {
 	font-family: millaris;
-	src: url(millaris.ttf);
+	src: url(fonts/millaris.ttf);
 }
 
 @font-face {
     font-family: melodrame;
-    src: url(melodrame.ttf);
+    src: url(fonts/melodrame.ttf);
 }
 
 @font-face {
     font-family: vogue;
-    src: url(vogue.ttf);
+    src: url(fonts/vogue.ttf);
 }
 
 nav.sitenav {
@@ -44,9 +44,9 @@ nav.sitenav a {
 }
 nav.sitenav p {
 	display: inline-block;
-	height: 2.2em;
+	height: 2em;
 	margin: auto;
-	width: 100px;
+	width: 150px;
 	padding-top: 20px;
 }
 
@@ -82,7 +82,7 @@ h3 {
 .desc, .ingred, .instr {
     background-color: #E4B1AB;
     padding: 10px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 10px;
     width: auto;
 }
